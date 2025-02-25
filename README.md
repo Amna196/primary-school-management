@@ -13,10 +13,10 @@ This project implements a minimal API for managing primary school data using Dja
 
 ## Technical Stack
 
-- Django REST Framework
-- SQLite
+- Django REST Framework (Backend APIs)
+- SQLite (Database)
 - swagger (api documentation and execution)
-- Pytest
+- Pytest (Test cases)
 
 ## CRUD APIS Testing
 
@@ -33,47 +33,52 @@ You can find the Hoppscotch collection file [here](https://drive.google.com/file
 - Used pytest
 - Tests covers the core functionality and permissions.
 - **Running the Tests:**
+
   1.  **Activate the Virtual Environment:**
       ```bash
       venv\Scripts\Activate.ps1  # For PowerShell
       ```
   2.  **Run Pytest:**
       ```bash
-      pytest
+        pytest
       ```
       This will run all test cases.
   3.  **Verify Test Results:**
       A successful test run will show output indicating that all tests have passed. Below is a sample screenshot of a valid test run:
+
       ![Pytest Successful Run Screenshot](image/testCases.PNG)
 
 ## Run The Project
 
-**Steps to Run the Project:** 1. **Activate the Virtual Environment:**
-`bash
-        venv\Scripts\Activate.ps1  # For PowerShell
-        ` 2. **Run server:**
-`bash
-        python manage.py runserver 
-        ` 3. **Run url on browser:**
-http://127.0.0.1:8000/
+- **Steps to Run the Project:**
+
+1. **Activate the Virtual Environment:**
+   ```bash
+       venv\Scripts\Activate.ps1  # For PowerShell
+   ```
+2. **Run server:**
+   ```bash
+       python manage.py runserver
+   ```
+3. **Run url on browser:**
+
+   ```
+    http://127.0.0.1:8000/
+
+   ```
 
 ## CRUD APIS documentation & Execution
 
 ### Swagger UI
 
-    1. **Activate the Virtual Environment:**
-        ```bash
-        venv\Scripts\Activate.ps1  # For PowerShell
-        ```
-    2.  **Run server:**
-        ```bash
-        python manage.py runserver
-        ```
-    3. **Run url on browser:**
-        http://127.0.0.1:8000/api/schema/swagger-ui/
+- **Run url on browser:**
+
+1.  **Swagger URL**
+
+    ```
+    http://127.0.0.1:8000/api/schema/swagger-ui/
+    ```
+
+2.  **Swagger UI**
 
         ![Swagger Screenshot](image/swagger.PNG)
-
-
-
-
