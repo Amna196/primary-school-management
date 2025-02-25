@@ -48,7 +48,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (  # Important: Add this!
-        'rest_framework.permissions.IsAuthenticatedOrReadOnly', # Or your default permissions
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly', 
     ),
     
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
@@ -56,8 +56,8 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Your API Title',
-    'DESCRIPTION': 'Your API Description',
+    'TITLE': 'Homework Application For Primary School Management project',
+    'DESCRIPTION': 'Homework Application with its CRUD operation and its restrictions based on two roles (Staff and Guardians)',
     'VERSION': '1.0.0',  # Update as needed
     'SERVE_INCLUDE_SCHEMA': False, # Set to True in production after running collectstatic
     'SWAGGER_UI_SETTINGS': {
@@ -65,7 +65,7 @@ SPECTACULAR_SETTINGS = {
         'persistAuthorization': True,
     },
      'SECURITY': [
-        {"bearerAuth": []} # Define the security scheme
+        {"bearerAuth": []} 
     ],
     'SECURITY_DEFINITIONS': { # Important for showing up in swagger
         "bearerAuth": {

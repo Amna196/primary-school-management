@@ -17,31 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-# from rest_framework import permissions
-# from drf_yasg.views import get_schema_view
-# from drf_yasg import openapi
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
-
-
-# schema_view = get_schema_view(
-#     openapi.Info(
-#         title="Your API Title",
-#         default_version='v1',
-#         description="Your API Description",
-#         # ... other info
-
-#         # Security definition inside openapi.Info
-#         securityDefinitions={  # Note the "s" here
-#             "Bearer": {  # Simpler name
-#             "type": "apiKey",
-#             "name": "Authorization",  # Must be "Authorization"
-#             "in": "header"
-#             }
-#         },
-#     ),
-#     public=True,  # Set to False for production
-#     permission_classes=(permissions.AllowAny,),  # Or your custom permission class for production
-# )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
