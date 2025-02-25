@@ -52,20 +52,20 @@ You can find the Hoppscotch collection file [here](https://drive.google.com/file
 
 - **Steps to Run the Project:**
 
-1. **Activate the Virtual Environment:**
-   ```bash
-       venv\Scripts\Activate.ps1  # For PowerShell
-   ```
-2. **Run server:**
-   ```bash
-       python manage.py runserver
-   ```
-3. **Run url on browser:**
+  1. **Activate the Virtual Environment:**
+     ```bash
+         venv\Scripts\Activate.ps1  # For PowerShell
+     ```
+  2. **Run server:**
+     ```bash
+         python manage.py runserver
+     ```
+  3. **Run url on browser:**
 
-   ```
-    http://127.0.0.1:8000/
+     ```
+         http://127.0.0.1:8000/
 
-   ```
+     ```
 
 ## CRUD APIS documentation & Execution
 
@@ -73,12 +73,13 @@ You can find the Hoppscotch collection file [here](https://drive.google.com/file
 
 - **Run url on browser:**
 
-1.  **Swagger URL**
+  1.  **Swagger URL**
 
-    ```
-    http://127.0.0.1:8000/api/schema/swagger-ui/
-    ```
+      ```
+      http://127.0.0.1:8000/api/schema/swagger-ui/
+      ```
 
-2.  **Swagger UI**
+  2.  **Swagger UI:**
+      A swagger user interface screenshot:
 
-        ![Swagger Screenshot](image/swagger.PNG)
+      ![Swagger Screenshot](image/swagger.PNG)
